@@ -94,3 +94,125 @@ h2{font-size:clamp(36px,4.5vw,55px)}
 .disclaimer{background:#f2f0e9;padding:18px 7%;font-size:10px;color:#7b857d;text-align:center}
 @media(max-width:800px){.site-header{height:72px}.menu-toggle{display:block}.nav{display:none;position:absolute;top:72px;left:0;right:0;background:var(--paper);padding:22px 7%;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:18px}.nav.open{display:flex}.hero{grid-template-columns:1fr;padding-top:60px;gap:45px}.hero-art{justify-self:center;height:330px}.intro,.intro-content,.approach,.appointment,.contact{grid-template-columns:1fr;gap:30px}.intro-content{gap:18px}.section{padding:70px 7%}.section-heading{display:block}.section-heading p{margin-top:18px}.service-grid{grid-template-columns:1fr}.service-card{min-height:210px}.approach-art{height:300px}.appointment-form{padding:22px}.footer{flex-wrap:wrap}.footer p{order:3;width:100%}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+
+
+/* Thrive Wellness Brand Colors */
+.site-header {
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom-color: #CDE4DC;
+}
+
+.nav {
+  color: #526B70;
+}
+
+.nav-cta {
+  border-color: #005B63;
+  color: #005B63;
+}
+
+.nav-cta:hover {
+  background: #005B63;
+  color: #FFFFFF;
+}
+
+.hero {
+  background: #F2FAF7;
+}
+
+.eyebrow,
+.section-label {
+  color: #009E98;
+}
+
+h1 em {
+  color: #4F922E;
+}
+
+.button-primary {
+  background: #005B63;
+  color: #FFFFFF;
+}
+
+.button-primary:hover {
+  background: #009E98;
+}
+
+.hero-art {
+  background: #DDF3E8;
+}
+
+.sun {
+  background: #8BA64B;
+}
+
+.arch {
+  background: #5CA69C;
+  border-color: #FFFFFF;
+}
+
+.plant {
+  background: #005B63;
+}
+
+.plant:before,
+.plant:after {
+  background: #4F922E;
+}
+
+.services {
+  background: #DDF3E8;
+}
+
+.service-card {
+  border-color: #CDE4DC;
+}
+
+.service-icon {
+  color: #009E98;
+}
+
+.approach-art {
+  background: #F2FAF7;
+}
+
+.circle-a {
+  background: #5CA69C;
+}
+
+.circle-b {
+  background: #8BA64B;
+}
+
+.circle-c {
+  background: #DDF3E8;
+}
+
+.appointment {
+  background: #F2FAF7;
+}
+
+.appointment-form {
+  border-color: #CDE4DC;
+}
+
+.appointment-form input,
+.appointment-form select {
+  border-color: #CDE4DC;
+}
+
+.appointment-form input:focus,
+.appointment-form select:focus {
+  outline-color: #009E98;
+}
+
+.contact-link {
+  color: #005B63;
+  border-bottom-color: #5CA69C;
+}
+
+.disclaimer {
+  background: #DDF3E8;
+  color: #526B70;
+}
