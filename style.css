@@ -334,3 +334,55 @@ h1 em {
     color: #005B63;
     text-align: right;
 }
+
+/* Thrive welcome section */
+.welcome-section {
+  background: #E0BBAB;
+  color: #FFFFFF;
+  padding: 75px 7%;
+}
+
+.welcome-content {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.welcome-content h2 {
+  text-align: center;
+  margin-bottom: 35px;
+  color: #FFFFFF;
+}
+
+.welcome-content p {
+  font-size: 17px;
+  line-height: 1.9;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 600px) {
+  .welcome-section {
+    padding: 50px 7%;
+  }
+
+  .welcome-content p {
+    font-size: 15px;
+  }
+}
+
+/* Thrive welcome section - logo colours */
+.welcome-section {
+  background: #E0BBAB;
+  color: #123B4F;
+}
+
+.welcome-content h2 {
+  color: #005B63;
+}
+
+.welcome-content p {
+  color: #123B4F;
+}
+
+.welcome-content strong {
+  color: #4F922E;
+}
